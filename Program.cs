@@ -56,7 +56,6 @@ static string KebabConverter(string input)
     return sb.ToString();   
 }
 
-
 // See https://aka.ms/new-console-template for more information
 string input = "";
 string result = "";
@@ -73,8 +72,6 @@ while (input != "5")
     Console.WriteLine("4. camelCase to kebab-case converter");
     Console.WriteLine("5. Exit");
     Console.WriteLine("####################");
-
-   
 
     input = Console.ReadLine();
 
